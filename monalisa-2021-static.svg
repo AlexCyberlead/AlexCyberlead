@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-label="An ASCII reconstruction of the Mona Lisa">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#030507"/>
+      <stop offset="0.5" stop-color="#080d10"/>
+      <stop offset="1" stop-color="#020304"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="50%" cy="46%" r="52%">
+      <stop stop-color="#173c38" stop-opacity=".56"/>
+      <stop offset=".48" stop-color="#0b2725" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ink" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#d9fff3"/>
+      <stop offset=".35" stop-color="#86d8c4"/>
+      <stop offset=".7" stop-color="#d3b679"/>
+      <stop offset="1" stop-color="#5c806f"/>
+    </linearGradient>
+    <filter id="bloom" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="1.1" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <g id="portrait" font-family="ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="8.35" font-weight="600" letter-spacing=".1" xml:space="preserve">
+      <text y="59" fill="url(#ink)">
+      <tspan x="352" dy="0">,:::::::;;;;;;;;;;;:;;::;::::;;;;;::::;;;::::::;;:::::;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::::::</tspan>
+      <tspan x="352" dy="8.55">;;iiiiiiii1111111111tt1111111i11iiiiii111ii;;iiii1i1ii11ttt11t11111111ttttttttt11ttttt1ttt11111i</tspan>
+      <tspan x="352" dy="8.55">;1tttttt11ttt11tttttt1t1tt111111111111tt1i1111111111tttttffffffffttttffffffffffttfffffffffttttt1</tspan>
+      <tspan x="352" dy="8.55">;1tffffffffttttttttttttt111111ttt1tttttt111ttt1tttttttttfffffffLfffffffffffffffffLLLffffffffttt1</tspan>
+      <tspan x="352" dy="8.55">;1tffffffffffffLLLLffffftftttttttttffttftttfffffffLffffffffffLLLLLLLLfLLLLLLLffLLLLLLfffffffffft</tspan>
+      <tspan x="352" dy="8.55">;tfLfffffffffLLLLLLLLLLLLLfffffffffffffffffffLLLLCCCLLLLLLLLLCCCLLLLLLLLLLLLLLLLLLLLLLLLffffffft</tspan>
+      <tspan x="352" dy="8.55">;fLCLffLLLLLLCLLLLLLLLLLLLLLLLLfLLLfLLLLCLLLfftttttffLLLLLCLCCCCCLLLLLLLLLLLLLLLLLLLLLLLLfffLLLt</tspan>
+      <tspan x="352" dy="8.55">;fCCLLCCCCLLLCCCLLLLLLLCCCCCLLLLLLLLLCCCfi;;:,,,,::::;;i1fLCCLCCCLLLLLLLLLLLLLLLCCLLCCLLfffLLLLf</tspan>
+      <tspan x="352" dy="8.55">;fCCCLLLCCLCCGGCCCCCCCCGCCCCCCCCCCCCCCt;,..::,::::::::::::;tCCCCCCCCLLLCCCCCCCLCCCCCCCLLLLLLLCLf</tspan>
+      <tspan x="352" dy="8.55">;fCLCCGCCGGGGGGGGGCCGGGGGCCCCCCCCGCGL:.,:;i1;;;::::::::::::,:tGGGCCCLCCLCCCCCCCGCCCCCCCLLLLLLCLf</tspan>
+      <tspan x="352" dy="8.55">;fLLCGG00GG00GGGGGGGGGGGGGCGCGGG000L::1LG08880GCfi;::::::::::,iCCCGGCGCCCCCCCCGGCCCCCCLLLLLLCCCL</tspan>
+      <tspan x="352" dy="8.55">;fCCCCGGGGGG0000GGGGG000GGGGGG0000f:;C8@@@@@@@@80Cti;:::,:::::.;CGGGGGGGGGGGGGCCGGGGCCLLLCLCCCCL</tspan>
+      <tspan x="352" dy="8.55">;fC0G00GGG008808000000000000G0880f,,tG@@@@@@@@@@0Cf1;;::::,::,:.;GCCCCGCCGGGGCCGGGG0GGCCCCLCCGGL</tspan>
+      <tspan x="352" dy="8.55">:1CGG00GCLG80888888@880G0000G080t;,;f088@@@@@@@8GGCLt1i;:,,,,,,,,1ttffffLCLCCCCCGGGGGGGGCCCCGGGC</tspan>
+      <tspan x="352" dy="8.55">:itffffLftfCG00GCCG088880888888f;:,iG88@@@@@@@88000GCL1;::,,,,,..;ii111tfffLtLGGGGGGGGGGCCffCCLf</tspan>
+      <tspan x="352" dy="8.55">.:;11ii1tttffffffttffLC0888888Ci;::;LCLLL088C1i1ftt1i;;:,,,,,,,,.:;;;i1111ttitfCCGGG000GCLffttt1</tspan>
+      <tspan x="352" dy="8.55">.,:;;ii111ttt11t1iii1t1t88000Gf;:::;;;i::t8C;:1L;:::;i1;,,:,,,,,.,;;;;;i;ii;;i1LGGGGGGGCLffttLt1</tspan>
+      <tspan x="352" dy="8.55">.,:;ii1t11t1111t;;iii1;fCL1i1Lf;::.tGGCtLC@GitG0CLLC0Gf;,,,,,...,,::::;;;;;;;;;tGGGGCCLLLft1tft1</tspan>
+      <tspan x="352" dy="8.55">.:;iiiiii11iiii;;;;;;;;;;;;;:i;;,,.18888888GfC8@@@@8Gf1:,,,,,,,,,.:;;;;;;;;;;;;ifLLCLLLLLftttt11</tspan>
+      <tspan x="352" dy="8.55">.:i;;;;;;;i;;ii;;;;;:;;;;;;;::::::.:C88808@GLL08880Gf1;:,,,,,,,,,.:;;;iiiiiiii111ttftt11i11t11i;</tspan>
+      <tspan x="352" dy="8.55">.:;;:::;;;;;;;;;;;;;;;;;;::::,,.:,,,1C08GGC1;;G@8GLti;::,,,,,,,..,.,:::::::::;;;i;;;;;;;:;;;;;;;</tspan>
+      <tspan x="352" dy="8.55">.::::::;;;;;;;;:;;;;;;;;;:::::,,,,,,;tfC00i:;ifLLLf1i;::,,,,,.,..,,,:::::::::::::::::;;:;::::;;;</tspan>
+      <tspan x="352" dy="8.55">.,:::::;;;;;;;;;;;;;;;;:::::::,,,:,,,iLfLCL1i;;tLLf1;;:,,,,,.....,,,::::::::::::::;;;;;::::::;:;</tspan>
+      <tspan x="352" dy="8.55">.,::::;;;;;;;;;;::::::::::::;:::,,,,.,;f00Lftttffti;::,,,:,,,....,,,:::::::::::::::::::::::::;;;</tspan>
+      <tspan x="352" dy="8.55">.,,,:::::;;;;::::::::;;;;;;;;;::,:,,:..,;G@8GLti;;::::,,,,,,,.....,,::::;;;:::::::::::::::::::;:</tspan>
+      <tspan x="352" dy="8.55">.,,,:::::::;;;:::::::;::;;;;ii:,::,,,....:;i;;::::::,,:,,,,,,.......::::::;::::::::::::::;::::::</tspan>
+      <tspan x="352" dy="8.55">..,::::,::::;;;;;;;;;;;;iii1i1;,,,,,,......,:,,,,,,,:::::,..........,:::::::::::::,,,,:::::::;::</tspan>
+      <tspan x="352" dy="8.55">.,:::::,::::;;;;;;iiiiiii1iiiii;,,:,,......,11;;:::::;;;::..........,::::;;::;:::::::;;;::::;;;:</tspan>
+      <tspan x="352" dy="8.55">.,::::;::;;;;;;;;;;;;;i;iiii;;;;,,,,........iLft1iiii111i;,......,....,,::::;;;;;;ii;i;;;;::::;:</tspan>
+      <tspan x="352" dy="8.55">.,::;;;;;;i;i;i;;:::;::;::::,,,,.,,......,:1tLCLLfffLLLLf1;,,,,,,:..........,,,..:i1i;;;;;::,:::</tspan>
+      <tspan x="352" dy="8.55">.::::;;;:;;;;;;::;;:;:.,.,.:,.,.,,,,,.:;1fC0000GGGG000GGCLi:,,::,,......,,,:;;;;;;ii;:;:;;::::;:</tspan>
+      <tspan x="352" dy="8.55">.:::::::::;;;;;;;;;;:,,::..:,,,,,,,,.;fG088888888888880GCL;:::::,.........,,:1tt1i;;;;;;;;:;::::</tspan>
+      <tspan x="352" dy="8.55">.:;:;::;:;;;;;;;;i;::::::,,::,,,,,,:;L088@@@@@@8888@8880CLi:::::,....,......,:;;;iiii;;;;i;;::::</tspan>
+      <tspan x="352" dy="8.55">.:::;::;::;11t11i;;;::::::::,.,,,:;:t08@@@@@@@@8@@@@8800Ct;:::::...,:::,,....,::;;i1ii1111iii;::</tspan>
+      <tspan x="352" dy="8.55">.::::::::::;;11tt1i;;::;:,,..,,,:ittG8@@@@@@@@@@@@@@8800Ct;::::::;;;i;;;::... ..,,::;;;;1i11iii;</tspan>
+      <tspan x="352" dy="8.55">.,:;;;;;;:;::::;ii;;i;;:,,,,,,,:iCG088@@@@@@@@@@@@@@@80GLi;;:;;i1tt1;;::,......  ..,.,,,::;;i11i</tspan>
+      <tspan x="352" dy="8.55">.,:;;:;;;:;;;;;;;;;;11;.,,,,..,:;C@@@@@@@8@@@@@@@@@@@@80Lti;;ii;;:,.....     ...  ..,.,.,::it1i;</tspan>
+      <tspan x="352" dy="8.55">.,:;;::;;;i1iii1111i;:,,,.,,.,,::;1fC0808@@@@@@@@@@@@8Gf1;;::,........        .    ..,,,,,,::,:;</tspan>
+      <tspan x="352" dy="8.55">..,:;;;;i1i;;ii;;;:,..,,,,,.,::::::::;;;1fLCCG00880GL1;:::,.............           ..,::::,:::,,</tspan>
+      <tspan x="352" dy="8.55">..,,:;;;iiii;iiii;,........,:::::,::::::::::::;;;;;;;::::,......,,,....              ...,,.,::,.</tspan>
+      <tspan x="352" dy="8.55">.,,..::;;;;i;;;;i;.........,::,:..,..::::::::::::::::,..........,,.,...,.....  .    ...,,,,,,,..</tspan>
+      <tspan x="352" dy="8.55">.,,..,::::;;:::;::...,,..,,,:,,..,...:::::::,,,::,,....   ..........,:::,,,....      ..,:::,...,</tspan>
+      <tspan x="352" dy="8.55">.,:,.:;;;i;;;;;;:,....,,.,,,,...........,.,..,,,,,.....  ...........::::,,,..          ...,.....</tspan>
+      <tspan x="352" dy="8.55">.,:,:i1i11111t1i:...........................,,,,,....    ........,.,:::,..        ... ..,:::....</tspan>
+      <tspan x="352" dy="8.55">,::;iiii111t111:......,..,........ ........,.......       .  ...,,.,,,.            ......:::::,,</tspan>
+      <tspan x="352" dy="8.55">,:::::::::;;;:,.....,,,...,....... ...............        .  ........               .... ....,,.</tspan>
+      <tspan x="352" dy="8.55">.,,,,::::::,......,,,,,........... ...  ..........           .....                        ......</tspan>
+      <tspan x="352" dy="8.55">.::::::::,,,.,,.:,,,,:,,,,...........  ........     ...      ...                         .......</tspan>
+      <tspan x="352" dy="8.55">.,,,,::,...,,::,,::::::,,,...........   ......     ..        ..                           ......</tspan>
+      <tspan x="352" dy="8.55">.,:,,,,..,,,,,,,,,,,,............... .......      ...       ..                            ......</tspan>
+      <tspan x="352" dy="8.55">.,,,,....,..,,,,,,,,,,.............. .....                                .                .....</tspan>
+      <tspan x="352" dy="8.55">,,,........,:::;:,:::::,.....    . ...                                                      ....</tspan>
+      <tspan x="352" dy="8.55">.,,.......,::::::;;:::::::....,,,..                  .                                        ..</tspan>
+      <tspan x="352" dy="8.55">..........,::;;;;::;:;:;;;;tC000Cf1i;:.                                                        .</tspan>
+      <tspan x="352" dy="8.55">............,:;:::;::::,:iL0888000GGCLft1;:                                                    .</tspan>
+      <tspan x="352" dy="8.55">............,,.:;:.,::,,;;LCCGCCCGGGCCCCCLfi;:.                         .          .           .</tspan>
+      <tspan x="352" dy="8.55">...............,,.,,,:,,::i1ttttfLCCCCCCLCCCGCf1;,.           .......            ..    .       .</tspan>
+      <tspan x="352" dy="8.55">........................,,,:::;i1tffLLLLLCCf1tC0C1:::,:;;:::,,::::,,,,..        ..             .</tspan>
+      <tspan x="352" dy="8.55">.,... .. .   ...   ..... .,,:;i;i11ttftttfLf1:,;1ft;;;;;;;::::,,:::,.....                     ..</tspan>
+      <tspan x="352" dy="8.55">................       .:;iitCL1;;;i111tt1;iLL1:..:;;;;::.,:,::,..,,......                   ...</tspan>
+      <tspan x="352" dy="8.55">  .. ........ ..      .;i;;1ffCLt;::;iii1ff;:;tfi:..,:::,,.,,,::,.........                   ...</tspan>
+      <tspan x="352" dy="8.55">  .   ..............  ,;:;t1ifCLfti:::;;:;1Lf;,:;i;:...................                      ...</tspan>
+      <tspan x="352" dy="8.55">       ...............:;;i;;1tfL1;;::,,::,,:;;:,,,:;;..................                      ...</tspan>
+      <tspan x="352" dy="8.55">    .        .   ......,::;itt1;::,,,..........,,...,.                                         .</tspan>
+      <tspan x="352" dy="8.55">    . ....       ........,:;i;,............,,......                                           .</tspan>
+      <tspan x="352" dy="8.55">  .....................  ..::,..................                                              .</tspan>
+      <tspan x="352" dy="8.55">    .. ..   .........  .....,..................                                               .</tspan>
+      <tspan x="352" dy="8.55">      .   ......................     .                                               .</tspan>
+      <tspan x="352" dy="8.55">          ...................        .</tspan>
+      <tspan x="352" dy="8.55">        .. ....  .......             ..</tspan>
+      <tspan x="352" dy="8.55">                ........             .</tspan>
+      <tspan x="352" dy="8.55">.  ... ..................  ..     . ....                      ..                               .</tspan>
+      </text>
+    </g>
+  </defs>
+
+  <rect width="1200" height="720" rx="16" fill="url(#bg)"/>
+  <rect x="1" y="1" width="1198" height="718" rx="15" fill="none" stroke="#33433f" stroke-opacity=".68"/>
+  <ellipse cx="600" cy="342" rx="420" ry="345" fill="url(#halo)" opacity=".86"/>
+
+  <g opacity=".92" filter="url(#bloom)">
+    <use href="#portrait"/>
+  </g>
+
+  <g fill="#8bb6a9" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="11" letter-spacing="2" opacity=".68">
+    <text x="30" y="38">ARCHIVE // 07.24.2021</text>
+    <text x="1170" y="38" text-anchor="end">SIGNAL 77.3</text>
+    <text x="30" y="690">SUBJECT // UNKNOWN</text>
+    <text x="1170" y="690" text-anchor="end">FRAME 001</text>
+  </g>
+
+  <g stroke="#82c6b4" stroke-width="1" opacity=".46">
+    <path d="M24 62v-18h18M1176 62v-18h-18M24 658v18h18M1176 658v18h-18" fill="none"/>
+    <path d="M600 24v18M600 678v18M24 360h18M1158 360h18"/>
+  </g>
+
+</svg>
